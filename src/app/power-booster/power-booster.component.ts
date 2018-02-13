@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./power-booster.component.css']
 })
 export class PowerBoosterComponent implements OnInit {
-
+  power = 5;
+  factor = 1;
   constructor() { }
 
   ngOnInit() {

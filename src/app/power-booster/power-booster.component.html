@@ -1,2 +1,4 @@
-<h2>Power Booster</h2>
-<p>Super power boost: {{2 | exponentialStrength: 10}}</p>
+<h2>Power Booster Calculator</h2>
+<div>Normal power: <input [(ngModel)]="power"></div>
+<div>Boost Factor: <input [(ngModel)]="factor"></div>
+<p>Super power boost: {{power | exponentialStrength: factor}}</p>
